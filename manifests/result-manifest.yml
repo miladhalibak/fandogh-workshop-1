@@ -5,5 +5,6 @@ spec:
   env:
     - name: PGPASSWORD
       value: db123
+	  hidden: true
   resources:
     memory: 100Mi
